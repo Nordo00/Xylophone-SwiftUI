@@ -19,6 +19,7 @@
 		284DBA3229B116F7005496F2 /* E.wav in Resources */ = {isa = PBXBuildFile; fileRef = 284DBA2B29B116F7005496F2 /* E.wav */; };
 		284DBA3329B116F7005496F2 /* D.wav in Resources */ = {isa = PBXBuildFile; fileRef = 284DBA2C29B116F7005496F2 /* D.wav */; };
 		284DBA3529B1208D005496F2 /* XylophoneKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284DBA3429B1208D005496F2 /* XylophoneKey.swift */; };
+		284DBA3729B12930005496F2 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 284DBA3629B12930005496F2 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		284DBA2B29B116F7005496F2 /* E.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = E.wav; sourceTree = "<group>"; };
 		284DBA2C29B116F7005496F2 /* D.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = D.wav; sourceTree = "<group>"; };
 		284DBA3429B1208D005496F2 /* XylophoneKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XylophoneKey.swift; sourceTree = "<group>"; };
+		284DBA3629B12930005496F2 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 		284DBA0129B0F69E005496F2 = {
 			isa = PBXGroup;
 			children = (
+				284DBA3629B12930005496F2 /* README.md */,
 				284DBA0C29B0F69E005496F2 /* Xylophone-SwiftUI */,
 				284DBA0B29B0F69E005496F2 /* Products */,
 			);
@@ -162,6 +165,7 @@
 			files = (
 				284DBA3329B116F7005496F2 /* D.wav in Resources */,
 				284DBA2E29B116F7005496F2 /* C.wav in Resources */,
+				284DBA3729B12930005496F2 /* README.md in Resources */,
 				284DBA2F29B116F7005496F2 /* B.wav in Resources */,
 				284DBA2D29B116F7005496F2 /* A.wav in Resources */,
 				284DBA3029B116F7005496F2 /* F.wav in Resources */,
