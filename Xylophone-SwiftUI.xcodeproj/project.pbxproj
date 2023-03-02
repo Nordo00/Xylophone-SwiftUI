@@ -8,17 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		284DBA0E29B0F69E005496F2 /* Xylophone_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284DBA0D29B0F69E005496F2 /* Xylophone_SwiftUIApp.swift */; };
-		284DBA1029B0F69E005496F2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284DBA0F29B0F69E005496F2 /* ContentView.swift */; };
+		284DBA1029B0F69E005496F2 /* Xylophone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284DBA0F29B0F69E005496F2 /* Xylophone.swift */; };
 		284DBA1229B0F6A0005496F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 284DBA1129B0F6A0005496F2 /* Assets.xcassets */; };
 		284DBA1529B0F6A0005496F2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 284DBA1429B0F6A0005496F2 /* Preview Assets.xcassets */; };
+		284DBA2D29B116F7005496F2 /* A.wav in Resources */ = {isa = PBXBuildFile; fileRef = 284DBA2629B116F7005496F2 /* A.wav */; };
+		284DBA2E29B116F7005496F2 /* C.wav in Resources */ = {isa = PBXBuildFile; fileRef = 284DBA2729B116F7005496F2 /* C.wav */; };
+		284DBA2F29B116F7005496F2 /* B.wav in Resources */ = {isa = PBXBuildFile; fileRef = 284DBA2829B116F7005496F2 /* B.wav */; };
+		284DBA3029B116F7005496F2 /* F.wav in Resources */ = {isa = PBXBuildFile; fileRef = 284DBA2929B116F7005496F2 /* F.wav */; };
+		284DBA3129B116F7005496F2 /* G.wav in Resources */ = {isa = PBXBuildFile; fileRef = 284DBA2A29B116F7005496F2 /* G.wav */; };
+		284DBA3229B116F7005496F2 /* E.wav in Resources */ = {isa = PBXBuildFile; fileRef = 284DBA2B29B116F7005496F2 /* E.wav */; };
+		284DBA3329B116F7005496F2 /* D.wav in Resources */ = {isa = PBXBuildFile; fileRef = 284DBA2C29B116F7005496F2 /* D.wav */; };
+		284DBA3529B1208D005496F2 /* XylophoneKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284DBA3429B1208D005496F2 /* XylophoneKey.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		284DBA0A29B0F69E005496F2 /* Xylophone-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Xylophone-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		284DBA0D29B0F69E005496F2 /* Xylophone_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Xylophone_SwiftUIApp.swift; sourceTree = "<group>"; };
-		284DBA0F29B0F69E005496F2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		284DBA0F29B0F69E005496F2 /* Xylophone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Xylophone.swift; sourceTree = "<group>"; };
 		284DBA1129B0F6A0005496F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		284DBA1429B0F6A0005496F2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		284DBA1D29B1117C005496F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		284DBA2629B116F7005496F2 /* A.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = A.wav; sourceTree = "<group>"; };
+		284DBA2729B116F7005496F2 /* C.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = C.wav; sourceTree = "<group>"; };
+		284DBA2829B116F7005496F2 /* B.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = B.wav; sourceTree = "<group>"; };
+		284DBA2929B116F7005496F2 /* F.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = F.wav; sourceTree = "<group>"; };
+		284DBA2A29B116F7005496F2 /* G.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = G.wav; sourceTree = "<group>"; };
+		284DBA2B29B116F7005496F2 /* E.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = E.wav; sourceTree = "<group>"; };
+		284DBA2C29B116F7005496F2 /* D.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = D.wav; sourceTree = "<group>"; };
+		284DBA3429B1208D005496F2 /* XylophoneKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XylophoneKey.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +68,11 @@
 		284DBA0C29B0F69E005496F2 /* Xylophone-SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				284DBA2529B116E6005496F2 /* Sounds */,
+				284DBA1D29B1117C005496F2 /* Info.plist */,
 				284DBA0D29B0F69E005496F2 /* Xylophone_SwiftUIApp.swift */,
-				284DBA0F29B0F69E005496F2 /* ContentView.swift */,
+				284DBA0F29B0F69E005496F2 /* Xylophone.swift */,
+				284DBA3429B1208D005496F2 /* XylophoneKey.swift */,
 				284DBA1129B0F6A0005496F2 /* Assets.xcassets */,
 				284DBA1329B0F6A0005496F2 /* Preview Content */,
 			);
@@ -65,6 +85,20 @@
 				284DBA1429B0F6A0005496F2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		284DBA2529B116E6005496F2 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				284DBA2629B116F7005496F2 /* A.wav */,
+				284DBA2829B116F7005496F2 /* B.wav */,
+				284DBA2729B116F7005496F2 /* C.wav */,
+				284DBA2C29B116F7005496F2 /* D.wav */,
+				284DBA2B29B116F7005496F2 /* E.wav */,
+				284DBA2929B116F7005496F2 /* F.wav */,
+				284DBA2A29B116F7005496F2 /* G.wav */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +130,7 @@
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
+				ORGANIZATIONNAME = Nordo;
 				TargetAttributes = {
 					284DBA0929B0F69E005496F2 = {
 						CreatedOnToolsVersion = 14.2;
@@ -125,7 +160,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				284DBA3329B116F7005496F2 /* D.wav in Resources */,
+				284DBA2E29B116F7005496F2 /* C.wav in Resources */,
+				284DBA2F29B116F7005496F2 /* B.wav in Resources */,
+				284DBA2D29B116F7005496F2 /* A.wav in Resources */,
+				284DBA3029B116F7005496F2 /* F.wav in Resources */,
+				284DBA3129B116F7005496F2 /* G.wav in Resources */,
 				284DBA1529B0F6A0005496F2 /* Preview Assets.xcassets in Resources */,
+				284DBA3229B116F7005496F2 /* E.wav in Resources */,
 				284DBA1229B0F6A0005496F2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,7 +179,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				284DBA1029B0F69E005496F2 /* ContentView.swift in Sources */,
+				284DBA1029B0F69E005496F2 /* Xylophone.swift in Sources */,
+				284DBA3529B1208D005496F2 /* XylophoneKey.swift in Sources */,
 				284DBA0E29B0F69E005496F2 /* Xylophone_SwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,11 +312,10 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Xylophone-SwiftUI/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = "Xylophone-SwiftUI/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -297,11 +339,10 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Xylophone-SwiftUI/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = "Xylophone-SwiftUI/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
